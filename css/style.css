@@ -1,0 +1,112 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	min-width:1100px;
+	min-height: 700px;
+	width: expression_r( document.body.clientWidth < 1101 ? "1100px" : "auto" );
+	height: expression_r( document.body.clientHeight < 701 ? "700px" : "auto" );
+	overflow: auto;
+}
+body{
+	color:#506470;
+	position:relative;
+	padding:0;
+	margin:0;
+    background-image: url(../images/bodybg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+	font-size:12px;
+	font-family:"微软雅黑",Arial, Helvetica, sans-serif;}
+div, h1, h2, h3, h4,h5,h6, p, form, label, input, textarea, img, span,pre,iframe{
+	margin:0; padding:0;
+}
+.btn_muisc{
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	width:100px;
+	height: 100px;
+	display: block;
+	background-image: url(../images/icon_muisc1.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+	cursor: pointer;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.btn_muisc:hover{
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.75);
+	box-shadow: 0 0 10px rgba(0,0,0,0.75);
+}
+
+.face_box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -345px;
+	margin-left: -315px;
+	width: 630px;
+	height: 690px;
+	overflow: visible;
+	transform: rotate(10deg);
+}
+.face_box div{
+	position: absolute;
+	width: 274px;
+	height: 600px;
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.face01{
+	z-index: 2;
+	background-image: url(../images/face01.jpg);	
+	top: 45px;
+	right: 40px;	
+	cursor: pointer;
+}
+.face01:hover{
+	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.50);
+	-moz-box-shadow: 0 5px 15px rgba(0,0,0,0.50);
+	box-shadow: 0 5px 15px rgba(0,0,0,0.50);
+}
+.face02{
+	z-index: 1;
+	background-image: url(../images/face02.jpg);
+	top:-20px;
+	left: 20px;
+	transform: rotate(-20deg);
+}
+.page_box{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -340px;
+	margin-left: -312px;
+	width: 625px;
+	height: 680px;
+	background-image: url(../images/pagebg.jpg);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotate(20deg);    
+    cursor: pointer;
+}
+.page_box:hover{
+	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.50);
+	-moz-box-shadow: 0 5px 15px rgba(0,0,0,0.50);
+	box-shadow: 0 5px 15px rgba(0,0,0,0.50);
+}
+
+
+audio{
+	display: none;
+}
+
+
+

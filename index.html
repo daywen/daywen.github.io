@@ -1,10 +1,54 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>	
+<meta charset="utf-8" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript">
+$(function (){
+	$(".btn_muisc").click(function (){
+		audio = document.getElementById("audio"); 
+	    if(audio.paused){
+	        audio.play();}
+	    else{
+	        audio.pause();
+	    audio.addEventListener('ended',audioEnded,false);
+	    audio.addEventListener('play',audioPlay,false);
+	    audio.addEventListener('pause',audioPause,false);
+	    audio.addEventListener('timeupdate',updateProgress,false);
+	    }
+	});
+	
+	$(".face01").click(function (){
+		$(this).parents(".face_box").fadeOut().siblings(".page_box").fadeIn().animate({borderSpacing: 0 }, {
+		    step: function(now,fx) {
+		      $(this).css('transform','rotate('+now+'deg)');  
+		    },
+		    duration:'3s'
+		},'linear');
+	});
+	$(".page_box").click(function (){
+		if(!$(this).is(":animated")){
+		$(this).animate({borderSpacing: 10 }, {
+		    step: function(now,fx) {
+		      $(this).css('transform','rotate('+now+'deg)');  
+		    },
+		    duration:'3s'
+		},'linear').fadeOut().siblings(".face_box").fadeIn();
+		}
+	});
+	
+});
+</script>
 </head>
-<body>
-	Hello World!
+<body>	
+	<div class="face_box">
+		<div class="face01"></div>
+		<div class="face02"></div>
+	</div>
+	<div class="page_box"></div>
+	<a class="btn_muisc"></a>
+	<audio id="audio" controls="controls" src="song/Annibale E I Cantori Moderni-Trinity (Titoli).mp3"></audio>
 </body>
 </html>
