@@ -1,0 +1,307 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+body{
+	color:#2d2f3d;
+	padding:0;
+	margin:0;
+	background:url(../images/clouds.png) center 0 repeat-y #9fddea;
+	background-size: 100%;
+	font-size:12px;
+	font-family:"微软雅黑",Arial, Helvetica, sans-serif;}
+div, h1, h2, h3, h4,h5,h6, p, form, label, input, textarea, img, span,pre,iframe{
+	margin:0; padding:0;
+}
+ul{
+	list-style-type:none;
+}
+ul,li{
+	padding: 0;
+	margin: 0;	
+}
+img{
+	border: none;
+}
+.section{
+	position: relative;
+}
+.section img{
+	width: 100%;
+}
+.footer{
+	width: 100%;
+	font-size: 0;
+  line-height: 0;
+}
+.footer img{
+	width: 100%;
+}
+.hsresort img{
+	 border-radius: 6px;
+}
+@media screen and (max-width: 480px){
+.container{
+	width: 100%;
+}
+.kg{
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  width: 240px;
+}
+.datelocation {
+  position: absolute;
+  top: 256px;
+  right: 30px;
+  width: 150px;
+  z-index: 1;
+}
+.lunaplane {
+  position: absolute;
+  top: 300px;
+  right: 30px;
+  width: 200px;
+}
+.joinus {
+  position: absolute;
+  right: 5%;
+  top: 10px;
+  width: 80%;
+  font-size: 20px;
+  line-height: 30px;
+  text-indent: 2em;
+  background: rgba(255,255,255,0.5);
+  border-radius: 6px;
+  padding: 20px;
+}
+.cupcakes1 {
+  position: absolute;
+  top: 320px;
+  left: 20px;
+  width: 150px;
+}
+.travelinfo {
+  position: absolute;
+  top: 80px;
+  left: 5%;
+  background: rgba(255,255,255,0.5);
+  border-radius: 6px;
+  width: 90%;
+  height: 214px;
+}
+.bunnyballoon {
+  position: absolute;
+  top: 138px;
+  right: 10px;
+  width: 60px;
+}
+.hsresort {
+  position: absolute;
+  right: 5%;
+  top: 80px;
+  background: #fff;
+  width: 90%;
+  font-size: 0;
+  line-height: 0;
+  border-radius: 6px;
+}
+.rocketpig {
+  position: absolute;
+  left: 0px;
+  top: 230px;
+  width: 80px;
+}
+.address{
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	width: 100%;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+}
+
+}
+@media screen and (min-width:480px) and (max-width:800px){
+.container{
+	width: 100%;
+}
+.section{
+	min-height: 500px;
+}
+.kg{
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  width: 240px;
+}
+.datelocation {
+  position: absolute;
+  top: 256px;
+  right: 30px;
+  width: 150px;
+  z-index: 1;
+}
+.lunaplane {
+  position: absolute;
+  top: 300px;
+  right: 30px;
+  width: 200px;
+}
+.joinus {
+  position: absolute;
+  right: 5%;
+  top: 10px;
+  width: 80%;
+  font-size: 20px;
+  line-height: 30px;
+  text-indent: 2em;
+  background: rgba(255,255,255,0.5);
+  border-radius: 6px;
+  padding: 20px;
+}
+.cupcakes1 {
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  width: 150px;
+}
+.travelinfo {
+  position: absolute;
+  top: 80px;
+  left: 5%;
+  background: rgba(255,255,255,0.5);
+  border-radius: 6px;
+  width: 90%;
+  height: 214px;
+}
+.bunnyballoon {
+  position: absolute;
+  top: 138px;
+  right: 10px;
+  width: 60px;
+}
+.hsresort {
+  position: absolute;
+  right: 5%;
+  top: 80px;
+  background: #fff;
+  width: 90%;
+  font-size: 0;
+  line-height: 0;
+  border-radius: 6px;
+}
+.rocketpig {
+  position: absolute;
+  left: 0px;
+  top: 230px;
+  width: 80px;
+}
+.address{
+	position: absolute;
+	top: 450px;
+	left: 0px;
+	width: 100%;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+}
+
+}
+@media screen and (min-width: 800px){
+html,body{
+	min-width: 1000px;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.section{
+	min-height: 795px;
+}
+.kg{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 487px;
+  height: 755px;
+}
+.datelocation {
+  position: absolute;
+  top: 276px;
+  right: 50px;
+  width: 323px;
+  z-index: 1;
+}
+.lunaplane {
+  position: absolute;
+  top: 403px;
+  right: 78px;
+  width: 433px;
+  height: 358px;
+}
+.joinus {
+  position: absolute;
+  right: 30px;
+  top: 180px;
+  width: 823px;
+  font-size: 20px;
+  line-height: 30px;
+  text-indent: 2em;
+  background: rgba(255,255,255,0.5);
+  border-radius: 6px;
+  padding: 20px;
+}
+.cupcakes1 {
+  position: absolute;
+  top: 330px;
+  left: 30px;
+  width: 334px;
+}
+.travelinfo {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 6px;
+  margin-left: -31px;
+  width: 810px;
+  height: 614px;
+}
+.bunnyballoon {
+  position: absolute;
+  top: 138px;
+  left: 778px;
+  width: 165px;
+}
+.hsresort {
+  position: absolute;
+  right: 5%;
+  top: 80px;
+  background: #fff;
+  width: 90%;
+  font-size: 0;
+  line-height: 0;
+  border-radius: 6px;
+}
+
+.rocketpig {
+  position: absolute;
+  left: 0px;
+  top: 350px;
+  width: 206px;
+}
+.address{
+	position: absolute;
+	top: 660px;
+	left: 0;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+
+}
+
