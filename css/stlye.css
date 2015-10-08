@@ -40,6 +40,20 @@ img{
 .hsresort img{
 	 border-radius: 6px;
 }
+.joinus{
+	font-size: 0;
+	line-height: 0;
+}
+.joinus  img{
+	border-radius: 6px;
+}
+.travelinfo{
+	font-size: 0;
+	line-height: 0;
+}
+.travelinfo  img{
+	border-radius: 6px;
+}
 @media screen and (max-width: 480px){
 .container{
 	width: 100%;
@@ -68,12 +82,8 @@ img{
   right: 5%;
   top: 10px;
   width: 80%;
-  font-size: 20px;
-  line-height: 30px;
-  text-indent: 2em;
   background: rgba(255,255,255,0.5);
   border-radius: 6px;
-  padding: 20px;
 }
 .cupcakes1 {
   position: absolute;
@@ -88,11 +98,10 @@ img{
   background: rgba(255,255,255,0.5);
   border-radius: 6px;
   width: 90%;
-  height: 214px;
 }
 .bunnyballoon {
   position: absolute;
-  top: 138px;
+  top: 30px;
   right: 10px;
   width: 60px;
 }
@@ -154,12 +163,8 @@ img{
   right: 5%;
   top: 10px;
   width: 80%;
-  font-size: 20px;
-  line-height: 30px;
-  text-indent: 2em;
   background: rgba(255,255,255,0.5);
   border-radius: 6px;
-  padding: 20px;
 }
 .cupcakes1 {
   position: absolute;
@@ -174,7 +179,6 @@ img{
   background: rgba(255,255,255,0.5);
   border-radius: 6px;
   width: 90%;
-  height: 214px;
 }
 .bunnyballoon {
   position: absolute;
@@ -246,17 +250,13 @@ html,body{
   right: 30px;
   top: 180px;
   width: 823px;
-  font-size: 20px;
-  line-height: 30px;
-  text-indent: 2em;
   background: rgba(255,255,255,0.5);
   border-radius: 6px;
-  padding: 20px;
 }
 .cupcakes1 {
   position: absolute;
-  top: 330px;
-  left: 30px;
+  top: 530px;
+  left: 10px;
   width: 334px;
 }
 .travelinfo {
@@ -267,7 +267,6 @@ html,body{
   border-radius: 6px;
   margin-left: -31px;
   width: 810px;
-  height: 614px;
 }
 .bunnyballoon {
   position: absolute;
